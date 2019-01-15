@@ -1,0 +1,19 @@
+{
+  "name": "graphql-mongo-template",
+  "version": "0.0.0",
+  "description": "template de un servidor graphql usando apollo y mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Zestian",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.3.1",
+    "graphql": "^14.0.2",
+    "graphql-tools": "^4.0.3",
+    "mongoose": "^5.4.3",
+    "nodemon": "^1.18.9"
+  }
+}
